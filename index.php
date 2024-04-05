@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Uneed-It</title>
+    <script src="https://kit.fontawesome.com/7b49be9210.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<img src="uneed%20it%20logo.png" class="Logo"/>
-<nav class="navbar">
-    <a href="Home.php">Home</a>
-    <a href="Over ons">Over ons</a>
-    <a href="Webshop">Webshop</a>
-    <a href="Zakelijk">Zakelijk</a>
-    <a href="Service">Service</a>
-    <a href="Reparatie's">Reparatie's</a>
-    <a href="It Nieuws">About</a>
+<div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="#"><i class="fa fa-fw fa-users"></i>Over ons</a>
+    <a href="#"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
+    <a href="#"><i class="fa fa-fw fa-briefcase"></i>Zakelijk</a>
+    <a href="#"><i class="fa fa-fw fa-user"></i>Service</a>
+    <a href="#"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
+    <a href="#"><i class="fa fa-fw fa-newspaper"></i>It Nieuws</a>
+    <img id="logonav" src="uneed%20it%20logo.png"/>
+
+</div>
+
+<img id="foto1" src="index%20front.jpg">
+<img id="logo" src="uneed%20it%20logo.png">
+<div class="zindex">
     <section>
         <h2>Lorem ipsum</h2>
         <p>✓Lorem ipsum</p>
@@ -30,6 +37,8 @@
         <h3>Leer ons kennen</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
+</div>
+
     <footer>
         <div id="links">
         <p>ZUIDBAAN 514, 2841MD</p>
