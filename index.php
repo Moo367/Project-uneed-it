@@ -22,24 +22,18 @@
 </div>
 
 <img id="foto1" src="index%20front.jpg">
-<img id="logo" src="uneed%20it%20logo.png">
 <div class="zindex">
-    <section>
+    <img id="logo" src="uneed%20it%20logo.png">
+    <section id="sectie1">
         <h2>Lorem ipsum</h2>
         <p>✓Lorem ipsum</p>
         <p>✓Lorem ipsum</p>
         <p>✓Lorem ipsum</p>
         <p>✓Lorem ipsum</p>
     </section>
-    <section>
-        <p>Home Over Ons Webshop Zakelijk Service Reparaties IT Nieuws</p>
-        <p>U HET GEBRUIK, WIJ DE ZORG!</p>
-        <h3>Leer ons kennen</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </section>
 </div>
 
-    <footer>
+    <footer id="footer">
         <div id="links">
         <p>ZUIDBAAN 514, 2841MD</p>
         <p>MOORDRECHT</p>
@@ -53,7 +47,7 @@
         <p>+3118 28 202 18 (KANTOOR, BEREIKBAAR VAN 09:00-18:00)</p>
         </div>
     </footer>
-</nav>
+
 </body>
 </html>
 
