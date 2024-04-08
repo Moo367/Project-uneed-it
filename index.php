@@ -32,22 +32,51 @@
         <p>✓Lorem ipsum</p>
     </section>
 </div>
-
-    <footer id="footer">
+<div>
+    <footer id="topfooter">
         <div id="links">
         <p>ZUIDBAAN 514, 2841MD</p>
         <p>MOORDRECHT</p>
         </div>
         <div id="midden">
-        <p>UNEED - IT Lorem ipsum</p>
-        <p>ZUIDBAAN 514, 2841MD MOORDRECHT</p>
-        </div
+            <p>asdadad</p>
+            <p>asdadad</p>
+            <p>asdadad</p>
+        </div>
         <div id="rechts">
         <p>+316 30 985 409 (service nummer)</p>
-        <p>+3118 28 202 18 (KANTOOR, BEREIKBAAR VAN 09:00-18:00)</p>
+        <p>+3118 28 202 18 <br> (KANTOOR, BEREIKBAAR VAN 09:00-18:00)</p>
         </div>
     </footer>
+</div>
+    <div id="recensies">
+<div>
+<form class="form">
+    <h2 id="h22">Recensie</h2>
+    <p type="Naam:"><input placeholder="Write your name here.."></input></p>
+    <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+    <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
 
+</form>
+</div>
+<div>
+    <form class="form">
+        <h2 id="h22">Recensie</h2>
+        <p type="Naam:"><input placeholder="Write your name here.."></input></p>
+        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+        <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
+
+    </form>
+</div>
+<div>
+    <form class="form">
+        <h2 id="h22">Recensie</h2>
+        <p type="Naam:"><input placeholder="Write your name here.."></input></p>
+        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+        <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
+    </form>
+</div>
+    </div>
 </body>
 </html>
 
