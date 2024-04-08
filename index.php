@@ -34,16 +34,16 @@
 </div>
 <div>
     <footer id="topfooter">
-        <div id="links">
+        <div class="footertext1">
         <p>ZUIDBAAN 514, 2841MD</p>
         <p>MOORDRECHT</p>
         </div>
-        <div id="midden">
+        <div class="footertext1">
             <p>asdadad</p>
             <p>asdadad</p>
             <p>asdadad</p>
         </div>
-        <div id="rechts">
+        <div class="footertext1">
         <p>+316 30 985 409 (service nummer)</p>
         <p>+3118 28 202 18 <br> (KANTOOR, BEREIKBAAR VAN 09:00-18:00)</p>
         </div>

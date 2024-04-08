@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1A5B65;
+    background-color: #00708c;
 }
 
 
@@ -26,6 +26,8 @@ main {
     bottom: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 #logonav {
@@ -41,6 +43,7 @@ main {
     float: left;
 
 }
+
 #foto1 {
     width: 100%;
     height: 700px;
@@ -58,21 +61,11 @@ main {
     padding: 7px;
     height: 700px;
 }
-#links {
+.footertext1 {
     min-width: 200px;
-    margin: 0 150px 0 200px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
-
-#midden {
-    min-width: 200px;
-    margin: 0 150px 0 200px;
-}
-
-#rechts {
-    min-width: 200px;
-    margin: 0 150px 0 200px;
-}
-
 .navbar {
     width: 100%;
     background-color: #ffffff;
@@ -99,24 +92,25 @@ main {
 #recensies {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 
 .form  {
-    width:340px;
-    height:440px;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
     padding:20px 30px;
     box-sizing:border-box;
     font-family:'Montserrat',sans-serif;
-    margin: 140px;
+
+
+
 }
 .h22 {
     margin:10px 0;
     padding-bottom:10px;
-    width:180px;
+    width: 180px;
     color:#78788c;
     border-bottom:3px solid #78788c
 }
