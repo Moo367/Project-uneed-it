@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectielijst</title>
-    <link rel="stylesheet" href="stylecock.css">
+    <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <div class="navbar">
     <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
-    <a href="#"><i class="fa fa-fw fa-users"></i>Over ons</a>
+    <a href="index.php"><i class="fa fa-fw fa-users"></i>Over ons</a>
     <a href="#"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
     <a href="#"><i class="fa fa-fw fa-briefcase"></i>Zakelijk</a>
     <a href="#"><i class="fa fa-fw fa-user"></i>Service</a>
