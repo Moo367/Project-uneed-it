@@ -51,7 +51,8 @@
 </div>
     <div id="recensies">
 <div>
-<form class="form">
+    <!-- sterren bij reviews -->
+    <form class="form">
     <h2 id="h22">Recensie</h2>
     <p type="Naam:"><input placeholder="Write your name here.."></input></p>
     <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
@@ -83,12 +84,21 @@
     <p id="text1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    sunt in culpa qui officia deserunt mollit anim id est laborum <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    sunt in culpa qui officia deserunt mollit anim id est laborum <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 </div>
 
+<div id="locatie1">
+<iframe id="locatie" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.4692254174847!2d4.6556064761602!3d52.01654907338202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d125952a58cd%3A0x93f677d7fe6faaae!2sUneed-IT!5e0!3m2!1snl!2snl!4v1712576693344!5m2!1snl!2snl">"
+</div>
+<div class="footer">
+    0<p>Footer</p>
+</div>
 </body>
 </html>
 
