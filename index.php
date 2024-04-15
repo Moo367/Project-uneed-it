@@ -10,14 +10,14 @@
 <body>
 
 <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
-    <a href="index.php"><i class="fa fa-fw fa-users"></i>Over ons</a>
+    <a class="active" href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="Over%20Ons.php"><i class="fa fa-fw fa-users"></i>Over ons</a>
     <a href="webshop.php"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
     <a href="zakelijk.php"><i class="fa fa-fw fa-briefcase"></i>Zakelijk</a>
     <a href="service.php"><i class="fa fa-fw fa-user"></i>Service</a>
     <a href="reparaties.php"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
     <a href="It-nieuws.php"><i class="fa fa-fw fa-newspaper"></i>It Nieuws</a>
-    <a href="faq.php"><i class="fa fa-fw fa-"></i>FAQ</a>
+    <a href="faq.php"><i class="fa-solid fa-question"></i>FAQ</a>
     <img id="logonav" src="uneed%20it%20logo.png"/>
 
 </div>
@@ -106,26 +106,25 @@
     </iframe>
 
     <div class="footer1">
-        <div>
-            <div class="services1"">
-                <h3>Services</h3>
-                <ul>
-                    <li><a href="#">Reparaties</a></li>
-                    <li><a href="#">Webshop</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div>
-                <p>About</p>
-            </div>
-            </div>
-            <div>
-                <ahref="#"><i class="icon ion-social-instagram"></i></a>
-                <p class="copyright">UneedIT</p>
-            </div>
+        <h3 class="footer-socials">Services</h3>
+        <div class="services1">
+            <ul>
+                <a class="footer-socials ul1" href="#">Reparaties</a></li>
+                <a class="footer-socials ul1" href="#">Webshop</a></li>
+                <a class="footer-socials ul1" href="#">FAQ</a></li>
+            </ul>
+            <img class="footer-logo" src="DHL.png">
+            <img class="footer-logo homerr" src="homerr.png">
+            <img class="footer-logo" src="ups%20logo.png">
         </div>
     </div>
-
+    <h3 class="socials-div">About</h3>
+    <div class="socials-div">
+        <a class="socials-text" href="#">Twitter</a>
+        <a class="socials-text" href="#">Facebook</a>
+        <a class="socials-text" href="#">Linkedin</a>
+        <a class="socials-text" href="#">Instagram</a>
+    </div>
 </div>
 </body>
 </html>

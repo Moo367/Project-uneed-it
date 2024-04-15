@@ -177,6 +177,41 @@ button:hover{
     /*bottom: 0;*/
     width: 101%;
     text-align: center;
+    height: 50px;
+}
+.socials-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-socials {
+
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.footer-logo{
+    width: 100px;
     height: 100px;
-    
+}
+.socials-text {
+    text-decoration: none;
+}
+.navbar i {
+    margin: 1px;
+}
+.services1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ul1{
+    list-style-type: none;
+    text-decoration: black;
+}
+.homerr{
+    width: 150px;
 }
