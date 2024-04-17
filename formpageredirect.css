@@ -1,0 +1,17 @@
+#countdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#countdown {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#countdown-label {
+    font-size: 24px;
+}

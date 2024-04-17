@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +20,7 @@
     <a href="reparaties.php"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
     <a href="It-nieuws.php"><i class="fa fa-fw fa-newspaper"></i>It Nieuws</a>
     <a href="faq.php"><i class="fa-solid fa-question"></i>FAQ</a>
-    <a href="login.php"><i class="login"></i>admin</a>
+    <a href="login.php"><i class="login"></i>Login</a>
     <img id="logonav" src="uneed%20it%20logo.png"/>
 
 </div>
@@ -55,31 +57,34 @@
 <div id="recensies">
     <div class="recencies1">
         <!-- sterren bij reviews -->
-        <form class="form">
-            <h2 id="h22">Recensie</h2>
-            <p type="Naam:"><input placeholder="Write your name here.."></input></p>
-            <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-            <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
 
-        </form>
     </div>
     <div>
-        <form class="form">
+        <form class="form" action="submit_review.php" method="post"> <!-- Specify the PHP script to handle form submission -->
             <h2 id="h22">Recensie</h2>
-            <p type="Naam:"><input placeholder="Write your name here.."></input></p>
-            <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-            <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
+            <p>Naam: <input type="text" name="name" placeholder="Write your name here.."></p>
+            <p>Email: <input type="email" name="email" placeholder="Let us know how to contact you back.."></p>
+            <p>Bericht: <input name="message" placeholder="What would you like to tell us.."></input></p>
+            <button type="submit">Submit</button> <!-- Submit button -->
+        </form>
+    </div>
+    <div id="recensieindex" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <?php
+        session_start();
 
-        </form>
-    </div>
-    <div>
-        <form class="form">
-            <h2 id="h22">Recensie</h2>
-            <p type="Naam:"><input placeholder="Write your name here.."></input></p>
-            <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-            <p type="Bericht:"><input placeholder="What would you like to tell us.."></input></p>
-        </form>
-    </div>
+        // Check if accepted reviews data is available in the session
+        if (isset($_SESSION["accepted_reviews"]) &&!empty($_SESSION["accepted_reviews"])) {
+            // Loop through the accepted reviews and display them
+            foreach ($_SESSION["accepted_reviews"] as $review) {
+                echo "<div class='review-box' style='box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2); margin: 16px; width: 300px;'>";
+                echo "<div style='background-color: white; color: #333; padding: 16px; text-align: left;'>";
+                echo "<h4> ". $review['name']. "</h4>";
+                echo "<p> ". $review['message']. "</p>";
+                echo "</div>";
+                echo "</div>";
+            }
+        }
+        ?> </div>
 </div>
 
 <div id="info1">
