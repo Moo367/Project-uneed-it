@@ -10,9 +10,9 @@
 <body>
 
 <div class="navbar">
-    <a class="active" href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
     <a href="Over%20Ons.php"><i class="fa fa-fw fa-users"></i>Over ons</a>
-    <a href="webshop.php"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
+    <a class="active"  href="webshop.php"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
     <a href="zakelijk.php"><i class="fa fa-fw fa-briefcase"></i>Zakelijk</a>
     <a href="service.php"><i class="fa fa-fw fa-user"></i>Service</a>
     <a href="reparaties.php"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
@@ -33,7 +33,7 @@
         <p>✓Lorem ipsum</p>
     </section>
 </div>
-<div>
+<div class="border1">
     <div id="topfooter">
         <div class="footertext1">
             <p>ZUIDBAAN 514, 2841MD</p>
@@ -50,16 +50,22 @@
         </div>
     </div>
 </div>
-<h1>Onze Webshop</h1>
-<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+<div class="webshop  border1">
+    <div class="webshop-info">
+    <h3 id="H1top">Onze Webshop</h3>
+    <P id="text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     <br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     <br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
     <br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,<br>
-    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
-
-
-
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <br>
+    <br>
+<button class="but1">Onze Webshop</button> <h1>Webshop momenteel niet beschikbaar</h1>
+</P>
+    </div>
+<img id="uneedit03" src="uneedit03.jpg">
+</div>
 <div class="footer1">
     <h3 class="footer-socials">Services</h3>
     <div class="services1">

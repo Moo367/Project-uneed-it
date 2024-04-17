@@ -12,14 +12,14 @@
 <body>
 
 <div class="navbar">
-    <a class="active" href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
     <a href="Over%20Ons.php"><i class="fa fa-fw fa-users"></i>Over ons</a>
     <a href="webshop.php"><i class="fa fa-fw fa-cart-shopping"></i>Webshop</a>
     <a href="zakelijk.php"><i class="fa fa-fw fa-briefcase"></i>Zakelijk</a>
     <a href="service.php"><i class="fa fa-fw fa-user"></i>Service</a>
     <a href="reparaties.php"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
     <a href="It-nieuws.php"><i class="fa fa-fw fa-newspaper"></i>It Nieuws</a>
-    <a href="faq.php"><i class="fa-solid fa-question"></i>FAQ</a>
+    <a class="active" href="faq.php"><i class="fa-solid fa-question"></i>FAQ</a>
     <img id="logonav" src="uneed%20it%20logo.png"/>
 
 </div>

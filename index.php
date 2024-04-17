@@ -34,7 +34,7 @@
         <button class="but1">Leer Ons kennen</button>
     </section>
 </div>
-<div>
+<div class="border1">
     <div id="topfooter">
         <div class="footertext1">
             <p>ZUIDBAAN 514, 2841MD</p>
@@ -52,7 +52,7 @@
     </div>
 </div>
 <div id="recensies">
-    <div>
+    <div class="recencies1">
         <!-- sterren bij reviews -->
         <form class="form">
             <h2 id="h22">Recensie</h2>
@@ -106,7 +106,7 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.4692254174847!2d4.6556064761602!3d52.01654907338202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d125952a58cd%3A0x93f677d7fe6faaae!2sUneed-IT!5e0!3m2!1snl!2snl!4v1712576693344!5m2!1snl!2snl">
     </iframe>
 
-    <div class="footer1">
+    <div class="footer1 border2">
         <h3 class="footer-socials">Services</h3>
         <div class="services1">
             <ul>
