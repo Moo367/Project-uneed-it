@@ -212,3 +212,67 @@ button:hover{
     list-style-type: none;
     text-decoration: black;
 }
+.but1 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+    .but1:hover,
+    .but1:active {
+        background-color: initial;
+        background-position: 0 0;
+        color: #FF4742;
+    }
+
+    .but1:active {
+        opacity: .5;
+    }
+/*aaaaaaaa*/
+
+.faqs {
+    margin: 16px;
+}
+
+details {
+    overflow: hidden;
+    summary {
+        cursor: pointer;
+        grid-template-columns: 1fr auto;
+        font-weight: bold;
+        padding-block: 8px;
+        float: center;
+
+    }
+
+    div {
+        overflow: hidden;
+        margin-block: 8px;
+    }
+
+    &[open] {
+        border-bottom: 1px solid black;
+
+    }
+
+    &[open] summary {
+        border-bottom: 1px solid black;
+
+    }
+}
+
+.FAQd{
+    display: flex;
+    flex-direction: column;
+}

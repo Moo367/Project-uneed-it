@@ -31,6 +31,7 @@
         <p>✓Lorem ipsum</p>
         <p>✓Lorem ipsum</p>
         <p>✓Lorem ipsum</p>
+        <button class="but1">Leer Ons kennen</button>
     </section>
 </div>
 <div>
