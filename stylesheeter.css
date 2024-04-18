@@ -1,17 +1,18 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #154165;
-}
-
-.container1 {
-    max-width: 300px;
-    margin: 5px auto;
-    padding: 5px;
     background-color: #00708cff;
+} 
+.container1 {
+    max-width: 300px;   
+    margin-left: 10px;
+    padding: 5px;
+    background-color:rgb(37, 110, 147) ;
     border-radius: 5px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    float: right;
 }
 
 h2 {
@@ -196,5 +197,97 @@ height: 400px;
 margin-top:550px ;
 }
 .foto22{
-    width: 424px;
+    width: 350px;
+    margin: 50px;
 }
+.lorem2{
+    width: 600px;
+    background-color:#00708cff;
+    height: 200px;
+    margin-top:100px ;
+    margin-left: 20px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .lorey {
+        padding: 20px;
+        margin-right: 10px; /* Voeg een rechter marge toe om de afstand tussen de linker- en rechterkolom te verminderen */
+    }
+    header {
+        background-color: #880a0a;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+    .container22 {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    article {
+        width: 200px;
+        float: left;
+        margin-left: 25px;
+    }
+   
+    h2 {
+        margin-top: 0;  
+    }
+    p {
+        margin-top: 5px;
+    }
+    .a1{
+        margin-right: 60px;
+    }
+    .a2{
+        margin-right: 60px;
+    }
+    #footer {
+        /*left: 0;*/
+        /*bottom: 0;*/
+        margin-top: 400px;
+        width: 101%;
+        text-align: center;
+        height: 50px;
+    }
+    .socials-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .footer-socials {
+    
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }
+    .footer-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .socials-text {
+        text-decoration: none;
+    }
+    .navbar i {
+        margin: 1px;
+    }
+    .services1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .ul1{
+        list-style-type: none;
+        text-decoration: black;
+    }
+    
