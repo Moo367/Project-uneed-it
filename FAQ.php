@@ -20,6 +20,7 @@
     <a href="reparaties.php"><i class="fa fa-fw fa-laptop"></i>Reparaties</a>
     <a href="It-nieuws.php"><i class="fa fa-fw fa-newspaper"></i>It Nieuws</a>
     <a class="active" href="faq.php"><i class="fa-solid fa-question"></i>FAQ</a>
+    <a href="login.php"><i class="login"></i>Login</a>
     <img id="logonav" src="uneed%20it%20logo.png"/>
 
 </div>

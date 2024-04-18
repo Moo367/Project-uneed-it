@@ -1,28 +1,22 @@
 <?php
 session_start();
 
-// Variable to hold error message
 $error_message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    // Assuming you have a predefined admin username and password
     $admin_username = "admin";
-    $admin_password = "admin"; // Replace with actual admin password
+    $admin_password = "admin"; //
 
-    // Check if the entered credentials match the admin credentials
     if ($username === $admin_username && $password === $admin_password) {
-        // Admin login successful
         $_SESSION["admin"] = true;
         $success_message = "Successful login";
 
-        // Redirect to adminpage.php
         header("Location: adminpage.php");
-        exit; // Ensure that no other content is sent after redirection
+        exit; //
     } else {
-        // Incorrect credentials
         $error_message = "Incorrect username or password.";
     }
 }

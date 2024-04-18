@@ -93,7 +93,6 @@ main {
     width: 100%;
     background-color: #ffffff;
     overflow: auto;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 
@@ -249,19 +248,14 @@ button:hover{
 
 details {
     overflow: hidden;
-    summary {
+    .summary {
         cursor: pointer;
         grid-template-columns: 1fr auto;
         font-weight: bold;
         padding-block: 8px;
-        float: center;
 
     }
 
-    div {
-        overflow: hidden;
-        margin-block: 8px;
-    }
 
     &[open] {
         border-bottom: 1px solid black;
@@ -288,9 +282,9 @@ details {
 }
 
 .webshop-info {
-    flex: 1; /* Take remaining space */
+    flex: 1;
     margin-left: 20px;
-    margin-right: 20px; /* Add spacing between text and image */
+    margin-right: 20px;
 }
 #uneedit03{
     width: 45%;
@@ -298,10 +292,10 @@ details {
     height: 500px;
 }
 #text2 {
-    margin-bottom: 20px; /* Add margin below the paragraph */
+    margin-bottom: 20px;
 }
 #H1top {
-    margin-bottom: 20px; /* Add margin below the h3 title */
+    margin-bottom: 20px;
 }
 
 .border1{

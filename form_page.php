@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="formpageredirect.css">
     <head>
 <body>
-
+    😭
 <div id="countdown-container">
     <div id="countdown">5</div>
     <div class="progress-ring">
@@ -20,20 +20,18 @@
 </div>
 
 <script>
-    var seconds = 5; // Initial countdown value
+    var seconds = 5; //
     var countdownElement = document.getElementById('countdown');
 
-    // Update countdown every second
     var countdownInterval = setInterval(function() {
         countdownElement.textContent = seconds;
         seconds--;
 
-        // Redirect when countdown reaches 0
         if (seconds < 0) {
             clearInterval(countdownInterval);
             window.location.href = "index.php";
         }
-    }, 1000); // Update every 1 second (1000 milliseconds)
+    }, 1000);
 </script>
 <div class="navbar">
     <a href="index.php"><i class="fa fa-fw fa-home"></i>Ga terug</a>
